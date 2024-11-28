@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="root" prefHeight="588.0" prefWidth="1000.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.UserFormController">
+<AnchorPane fx:id="root" prefHeight="588.0" prefWidth="1000.0" style="-fx-background-color: #d9f1ff; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.UserFormController">
    <children>
       <Text fill="#457b9d" layoutX="426.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage User">
          <font>
@@ -58,7 +58,7 @@
             <Font size="10.0" />
          </font>
       </TextField>
-      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="119.0" onAction="#btnUpdateOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #457b9d;" text="Update" textFill="WHITE">
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="119.0" onAction="#btnUpdateOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #28a745;" text="Update" textFill="WHITE">
          <font>
             <Font name="System Bold" size="10.0" />
          </font>
@@ -73,7 +73,7 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="160.0" onAction="#btnSaveOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #457b9d;" text="Save" textFill="WHITE">
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="160.0" onAction="#btnSaveOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #007bff;" text="Save" textFill="WHITE">
          <font>
             <Font name="System Bold" size="10.0" />
          </font>
@@ -88,7 +88,7 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="201.0" onAction="#btnClearOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #457b9d;" text="Clear" textFill="WHITE">
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="201.0" onAction="#btnClearOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #6c757d;" text="Clear" textFill="WHITE">
          <font>
             <Font name="System Bold" size="10.0" />
          </font>
@@ -103,7 +103,7 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="243.0" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #457b9d;" text="Delete" textFill="WHITE">
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="838.0" layoutY="243.0" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #dc3545;" text="Delete" textFill="WHITE">
          <font>
             <Font name="System Bold" size="10.0" />
          </font>

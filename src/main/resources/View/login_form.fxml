@@ -16,7 +16,7 @@
 
 <AnchorPane fx:id="root" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginFormController">
    <children>
-      <AnchorPane fx:id="rootNode" accessibleRole="TEXT_FIELD" prefHeight="600.0" prefWidth="475.0" style="-fx-background-color: #ffffff;">
+      <AnchorPane fx:id="rootNode" accessibleRole="TEXT_FIELD" prefHeight="600.0" prefWidth="475.0" style="-fx-background-color: #d9f1ff;">
          <children>
             <Label layoutX="108.0" layoutY="216.0" text="Username" textFill="#457b9d">
                <font>
@@ -65,9 +65,9 @@
             </Label>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="600.0" fitWidth="526.0" layoutX="474.0">
+      <ImageView fitHeight="600.0" fitWidth="562.0" layoutX="474.0">
          <image>
-            <Image url="@../Assets/377297-PBLCTE-187.jpg" />
+            <Image url="@../Assets/young-female-chef-decorating-meal-kitchen-background-blue-expert-culinary-presentation-ar-1_1204450-6112.jpg" />
          </image>
       </ImageView>
    </children>
