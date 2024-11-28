@@ -43,50 +43,48 @@ public class LoginFormController {
 
     @FXML
     void btnLoginOnAction(ActionEvent event) throws IOException {
-//        String username = txtUserName.getText();
-//        String password = txtPassword.getText();
-//        String role=cmbRole.getValue();
-//
-//        if (userDAO.checkPassword(username,password)){
-//            if (role.toString().contains("Admin")){
-//                AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/admin_dashboard_form.fxml"));
-//
-//                Scene scene = new Scene(rootNode);
-//
-//                Stage stage = (Stage) this.rootNode.getScene().getWindow();
-//                stage.setScene(scene);
-//                stage.centerOnScreen();
-//                stage.setTitle("Dashboard Form");
-//            }else {
-//                AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/coordinator_dashboard_form.fxml"));
-//
-//                Scene scene = new Scene(rootNode);
-//
-//                Stage stage = (Stage) this.rootNode.getScene().getWindow();
-//                stage.setScene(scene);
-//                stage.centerOnScreen();
-//                stage.setTitle("Dashboard Form");
-//            }
-//
-//            //SignInForm.getScene().getWindow().hide();
-//        }else {
-//            new Alert(Alert.AlertType.ERROR,"Please Check Username and password !!").show();
-//        }
-//
-//        txtUserName.clear();
-//        txtPassword.clear();
+        String username = txtUserName.getText();
+        String password = txtPassword.getText();
+        String role=cmbRole.getValue();
+
+        if (userDAO.checkPassword(username,password)){
+            if (role.toString().contains("Admin")){
+                AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/admin_dashboard_form.fxml"));
+
+                Scene scene = new Scene(rootNode);
+
+                Stage stage = (Stage) this.rootNode.getScene().getWindow();
+                stage.setScene(scene);
+                stage.centerOnScreen();
+                stage.setTitle("Dashboard Form");
+            }else {
+                AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/coordinator_dashboard_form.fxml"));
+
+                Scene scene = new Scene(rootNode);
+
+                Stage stage = (Stage) this.rootNode.getScene().getWindow();
+                stage.setScene(scene);
+                stage.centerOnScreen();
+                stage.setTitle("Dashboard Form");
+            }
+
+            //SignInForm.getScene().getWindow().hide();
+        }else {
+            new Alert(Alert.AlertType.ERROR,"Please Check Username and password !!").show();
+        }
+
+        txtUserName.clear();
+        txtPassword.clear();
 //        cmbRole.clone();
-        AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/admin_dashboard_form.fxml"));
-
-        Scene scene = new Scene(rootNode);
-
-        Stage stage = (Stage) this.root.getScene().getWindow();
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.setTitle("Dashboard Form");
+//        AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/View/admin_dashboard_form.fxml"));
+//
+//        Scene scene = new Scene(rootNode);
+//
+//        Stage stage = (Stage) this.root.getScene().getWindow();
+//        stage.setScene(scene);
+//        stage.centerOnScreen();
+//        stage.setTitle("Dashboard Form");
     }
-
-
 
     private void clearFields() {
     }
